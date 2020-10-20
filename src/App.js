@@ -5,7 +5,7 @@ import Display from './Display';
 import Form from './Form';
 function App() {
 	// URL VARIABLE
-	const url = 'http://localhost:4500';
+	const url = 'https://jsrdogsbackend.herokuapp.com';
 	// STATE TO HOLD DOGS
 	const [dogs, setDogs] = React.useState([]);
 
@@ -62,10 +62,10 @@ function App() {
 	};
 	return (
 		<div className='App'>
-			<h1>DOG LISTING SITE</h1>
+			<h1>FOX LISTING SITE</h1>
 			<hr />
 			<Link to='/create'>
-				<button>Add Dog</button>
+				<button>Add Fox</button>
 			</Link>
 			<main>
 				<Switch>
